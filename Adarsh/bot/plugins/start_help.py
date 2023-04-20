@@ -224,28 +224,4 @@ async def about_handler(bot, message):
                 
                 disable_web_page_preview=True)
             return
-    await message.reply_photo(
-            photo="https://te.legra.ph/file/cce8a46326e6067f0d88c.jpg",
-            caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
-
-<b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
-┃
-┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/File_to_Direct_Download_Link_Bot'>File2Link</a></b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/mdiskbots'><a>𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/z_harbour'><a>𝚂𝚄𝙿𝙿𝙾𝚁𝚃</a></b>
-┣⪼<b>sᴇʀᴠᴇʀ : <a href='https://render.com/'></a>RENDER</b>
-┣⪼<b>Library:<a href='https://docs.pyrogram.org/'></a>ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ:<a href='https://www.python.org/'><a>ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>sᴏᴜʀᴄᴇ-ᴄᴏᴅᴇ : <a href='https://github.com/'><a>CodeSpace</a></b>
-┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/blackest_harbour'><a>𝙼𝚘𝚟𝚒𝚎𝚜</a></b>
-┃
-<b>╰━━━━━━━〔ᴘʟᴇᴀS sᴜᴘᴘᴏʀᴛ〕</b>""",
-  
-        
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/mdisk_bots"), InlineKeyboardButton("📺 24/7 𝙼𝙾𝚅𝙸𝙴𝚂 📺", url="https://t.me/MoviesNowV2")],
-                [InlineKeyboardButton("💌 𝙼𝙾𝚅𝙸𝙴𝙱𝙾𝚃 💌 ", url="https://t.me/MdiskLinksSearchBot")]
-            ]
-        )
-    )
+    
